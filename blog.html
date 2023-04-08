@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elías el Programador</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #c21616;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      nav li {
+        float: left;
+      }
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav li a:hover {
+        background-color: #111;
+      }
+      section {
+        display: flex;
+      }
+      article {
+        flex: 1;
+        padding: 20px;
+      }
+      footer {
+        background-color: #ff0404;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .rainbow-text {
+          background-image: linear-gradient(to left, violet, indigo, blue, rgb(128, 0, 0), yellow, orange, red);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation-name: rainbow-text-animation; 
+          animation-duration: 2s; 
+          animation-iteration-count: infinite; 
+          animation-direction: alternate; 
+      }
+      
+      @keyframes rainbow-text-animation { 
+          from { 
+              transform: translateX(0); 
+          } 
+          to { 
+              transform: translateX(20px); 
+          } 
+      } 
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Elías el Programador</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#news">Noticias</a></li>
+        <li><a href="https://www.instagram.com/eluprieto/" target="_blank">Contacto</a></li>
+        <li><a href="#about">Acerca de</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <h2 class="rainbow-text">Que significa progamar para mi</h2>
+        <p>Buenos días/tardes/noches, mi nombre es Elias y me gustaría hablarles sobre lo que programar significa para mí. Estoy emocionado de compartir con ustedes mi perspectiva sobre esta habilidad tan valiosa y relevante en el mundo actual.
+
+            Para mí, programar es una forma de crear soluciones innovadoras para problemas en la vida cotidiana. A través de la programación, puedo tomar una idea o concepto y darle vida a través de la escritura de código y la resolución de problemas.</p>
+      </article>
+    </section>
+    <footer>
+      <p>Derechos Reservados © 2023 Elías el Programador</p>
+    </footer>
+  </body>
+</html>```
